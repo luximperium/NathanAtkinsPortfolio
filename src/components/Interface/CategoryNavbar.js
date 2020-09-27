@@ -16,21 +16,21 @@ const CategoryNavbar = () => {
             className="CategoryNavbar"
             color="inherit"
           >
-            <Button><Link to="/home" className="Category-Link">MY ENDEAVORS:</Link></Button>
+            <Link to="/home" className="Category-Link"><Button style={{ color: "rgb(58, 0, 0)" }}>MY ENDEAVORS:</Button></Link>
           </Typography>
           <Typography
             variant="title"
             className="CategoryNavbar"
             color="inherit"
           >
-            <Button><Link to="/categories/webdev" className="Category-Link">Web Development</Link></Button>
+            <Link to="/categories/webdev" className="Category-Link"><Button style={{ color: "rgb(58, 0, 0)" }}>Web Development</Button></Link>
           </Typography>
           <Typography
             variant="title"
             className="CategoryNavbar"
             color="inherit"
           >
-            <Button><Link to="/categories/music" className="Category-Link">Music</Link></Button>
+            <Link to="/categories/music" className="Category-Link"><Button style={{ color: "rgb(58, 0, 0)" }}>Music</Button></Link>
           </Typography>
         </Toolbar>
       </AppBar>

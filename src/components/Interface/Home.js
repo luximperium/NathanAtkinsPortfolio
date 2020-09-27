@@ -13,9 +13,8 @@ import WebDev from "../../assets/Nathan/brackets.png"
 import Music from "../../assets/Nathan/Lux.png";
 import { Link } from "react-router-dom";
 import "fontsource-roboto";
-import Slider from "react-animated-slider";
-import "react-animated-slider/build/horizontal.css";
-import content from "./Content";
+
+
 
 const useStyles = makeStyles((theme) => ({
   app: {},
@@ -37,29 +36,18 @@ const useStyles = makeStyles((theme) => ({
   button: {
     margin: "1em",
     color: "rgb(255, 233, 106)",
+    textDecoration: "none",
     "&:hover": {
       backgroundColor: "rgb(255, 233, 106)",
       color: "rgb(58, 0, 0)",
+      textDecoration: "none",
     }
   },
-  button2: {
-    margin: "1em",
-    color: "rgb(255, 233, 106)",
-    textShadow: "1px 1px rgb(58, 0, 0)",
-    textDecoration: "none",
-    fontSize: "18pt",
-  },
   titletext: {
+    fontFamily: "Nurom-Bold",
     marginBottom: "-1em",
     color: "rgb(255, 233, 106)",
     textShadow: "1px 1px rgb(58, 0, 0)",
-  },
-  carouseltitle: {
-    color: "rgb(255, 233, 106)"
-  },
-  link: {
-    color: "rgb(55, 255, 155)",
-    textDecoration: "none",
   },
   media: {
     height: "0",
@@ -84,7 +72,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "rgb(58, 0, 0)",
     color: "rgb(255, 233, 106)",
     textAlign: "center",
-    minHeight: "24em"
+    minHeight: "24em",
+    maxHeight: "40em"
+  },
+  link: {
+    color: "rgb(55, 255, 155)",
+    textDecoration: "none",
   },
 }));
 
@@ -94,62 +87,23 @@ const Home = () => {
   return (
     <div className={classes.app}>
       <Grid container justify="center" className={classes.mainroot}>
-        <Grid
-          direction="column"
-          container
-          xs={12}
-          spacing={4}
-          className={classes.root2}
-        >
-          <Grid item xs={12}>
-            <Card className={classes.card2}>
-              <CardContent>
-                <Slider autoplay={3000}>
-                  {content.map((item, index) => (
-                    <div
-                      key={index}
-                      style={{
-                        background: `url('${item.image}') no-repeat center center`,
-                      }}
-                    >
-                      <div className="center carousel">
-                        <h1 className={classes.carouseltitle}>{item.title}</h1>
-                        <p className={classes.carouseltitle}>{item.description}</p>
-                        <a
-                          href={item.link}
-                          className={classes.button2}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button className={classes.button2}>
-                            {item.button}
-                          </Button>
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </Slider>
-              </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
         </Grid>
         <Grid container justify="center" className={classes.mainroot}>
           <Grid container xs={12} spacing={4} className={classes.root2}>
             <Grid item xs={12}>
               <Card className={classes.cardtitle}>
                 <CardContent>
-                  <h1 style={{ fontSize: "32pt" }}>Welcome</h1>
+                  <h1 style={{ fontSize: "32pt", fontFamily: "Nurom-Bold" }}>Welcome</h1>
                   <h4>
-                    Hi, I'm Nathan, and I am a web developer, all around AV nerd and musician!
+                    Hi, I'm Nathan Atkins, and I am a web developer, AV nerd and musician!
                   </h4>
                 </CardContent>
               </Card>
             </Grid>
             <Grid item sm={6} md={4} xs={12}>
-              <Card className={classes.cardtitle2}>
+              <Card style={{ fontFamily: "Nurom-Bold" }} className={classes.cardtitle2}>
                 <CardContent>
-                  <h2>Web Development Summary</h2>
+                  <h2 style={{ fontFamily: "Nurom-Bold" }}>Web Development Summary</h2>
                   <Typography variant="body1" gutterBottom>
                     I'm always pursuing new knowledge in web development, with
                     more recent endeavors being JavaScript, React, TypeScript,
@@ -168,7 +122,7 @@ const Home = () => {
             <Grid item sm={6} md={4} xs={12}>
               <Card className={classes.cardtitle2}>
                 <CardContent>
-                  <h2>Music Production Summary</h2>
+                  <h2 style={{ fontFamily: "Nurom-Bold" }}>Music Production Summary</h2>
                   <Typography variant="body1" gutterBottom>
                     Other than web development, I am also a musician who creates
                     music under the alias Lux Imperium. I love exploring the
@@ -187,15 +141,15 @@ const Home = () => {
             <Grid item sm={12} md={4} xs={12}>
               <Card className={classes.cardtitle2}>
                 <CardContent>
-                  <h2>Audio/Video Summary</h2>
+                  <h2 style={{ fontFamily: "Nurom-Bold" }}>Audio/Video Summary</h2>
                   <Typography variant="body1" gutterBottom>
-                    Another skillset of mine includes Audio and Video! I love
+                    Another skill set of mine includes Audio and Video! I love
                     sound, first and foremost. For years now, you could
                     definitely fit me into the "Audiophile" category. Therefore,
                     I've taught myself quite a bit in regards to how sound
                     works. I've worked in home theater and am experienced
                     working with everything from speakers, amplifiers,
-                    recievers, TVs, projectors, headphones, headphone
+                    receivers, TVs, projectors, headphones, headphone
                     amplifiers, DACs, and even some IoT home integration, all
                     while studying the technologies that make them work and
                     interface with each other! This category isn't as
@@ -214,14 +168,14 @@ const Home = () => {
             <Grid item xs={12}>
               <Card className={classes.cardtitle}>
                 <CardContent>
-                  <h1 style={{ fontSize: "32pt" }}>Check Out My Stuff!</h1>
+                  <h1 style={{ fontSize: "32pt", fontFamily: "Nurom-Bold" }}>Check Out My Stuff!</h1>
                 </CardContent>
               </Card>
             </Grid>
             <Grid item sm={6} xs={12}>
               <Card className={classes.cardtitle2}>
                 <CardContent>
-                <h1>WEB DEVELOPMENT</h1>
+                <h1 style={{ fontFamily: "Nurom-Bold" }}>WEB DEVELOPMENT</h1>
               <Link to="/categories/webdev" className={classes.link}>
                 <Button className={classes.button}>VIEW</Button>
               </Link>
