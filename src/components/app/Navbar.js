@@ -9,6 +9,7 @@ import ResumePDF from "../../assets/Nathan/Resume.pdf";
 import Lux from "../../assets/Nathan/Lux3.png";
 import DownloadIcon from "../../assets/downloadicon.png";
 import LinkedIn from "../../assets/Nathan/linkedin.png";
+import NA from '../../assets/Nathan/NA.png';
 
 const Navbar = () => {
   return (
@@ -26,7 +27,7 @@ const Navbar = () => {
                       transform: "translateY(-2px)",
                     }}
                   >
-                    <img src={Lux} style={{ height: "2em" }} />
+                    <img src={NA} style={{ height: "2em" }} />
                   </Button>
                 </Link>
               </Typography>

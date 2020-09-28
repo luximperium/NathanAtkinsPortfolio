@@ -13,6 +13,7 @@ import WebDev from "../../assets/Nathan/brackets.png"
 import Music from "../../assets/Nathan/Lux.png";
 import { Link } from "react-router-dom";
 import "fontsource-roboto";
+import NA from '../../assets/Nathan/NA.png';
 
 
 
@@ -90,6 +91,13 @@ const Home = () => {
         </Grid>
         <Grid container justify="center" className={classes.mainroot}>
           <Grid container xs={12} spacing={4} className={classes.root2}>
+          <Grid item xs={12}>
+              <Card className={classes.cardtitle}>
+                <CardContent>
+                  <img src={NA} height="200" />
+                </CardContent>
+              </Card>
+            </Grid>
             <Grid item xs={12}>
               <Card className={classes.cardtitle}>
                 <CardContent>
