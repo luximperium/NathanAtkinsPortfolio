@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     margin: "1em",
-    color: "rgb(255, 233, 106)",
+    color: "white",
   },
   button2: {
     margin: "1em",
@@ -64,15 +64,15 @@ const useStyles = makeStyles((theme) => ({
   },
   titletext: {
     marginBottom: "-1em",
-    color: "rgb(255, 233, 106)",
+    color: "white",
   },
   jacobtext: {
     marginBottom: "-1em",
-    color: "rgb(255, 233, 106)",
+    color: "white",
     fontFamily: "roboto",
   },
   link: {
-    color: "rgb(255, 233, 106)",
+    color: "white",
     textDecoration: "none",
   },
   media: {
@@ -87,41 +87,41 @@ const useStyles = makeStyles((theme) => ({
     padding: "25%",
   },
   card: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     textAlign: "center",
     minHeight: "15em",
   },
   cardtitle: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     textAlign: "center",
   },
   cardtitle2: {
-    color: "rgb(58, 0, 0)",
-    backgroundColor: "rgb(255, 233, 106)",
+    color: "rgb(194, 94, 0)",
+    backgroundColor: "rgb(255, 217, 181)",
     textAlign: "center",
   },
   card2: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     padding: theme.spacing(2),
     textAlign: "center",
   },
   indcard: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     padding: theme.spacing(2),
     textAlign: "center",
   },
   card3: {
-    backgroundColor: "rgb(255, 233, 106)",
-    color: "rgb(58, 0, 0)",
+    backgroundColor: "rgb(255, 217, 181)",
+    color: "rgb(194, 94, 0)",
     margin: "1em",
   },
   card6: {
-    backgroundColor: "rgb(255, 233, 106)",
-    color: "rgb(58, 0, 0)",
+    backgroundColor: "rgb(255, 217, 181)",
+    color: "rgb(194, 94, 0)",
     margin: "1em",
   },
   title: {
@@ -149,23 +149,23 @@ const useStyles = makeStyles((theme) => ({
   },
   BadgeButton: {
     margin: "0.5em",
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     "&:hover": {
-      backgroundColor: "rgb(255, 233, 106)",
-      color: "rgb(58, 0, 0)",
+      backgroundColor: "rgb(255, 217, 181)",
+      color: "rgb(194, 94, 0)",
     },
   },
   card4: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     padding: theme.spacing(2),
     textAlign: "left",
     margin: "1em",
   },
   card5: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     textAlign: "left",
     margin: "1em",
   },
@@ -173,8 +173,8 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: "1em",
   },
   card7: {
-    background: "linear-gradient(rgb(255, 233, 106), rgb(58, 0, 0))",
-    color: "rgb(58, 0, 0)",
+    background: "linear-gradient(rgb(255, 217, 181), rgb(194, 94, 0))",
+    color: "rgb(194, 94, 0)",
     margin: "1em",
   },
 }));
@@ -800,7 +800,7 @@ const Music = () => {
         <Grid container justify="center" className={classes.maintitle}>
           <Grid item xs={12}>
             <Card className={classes.cardtitle2}>
-              <h1 style={{ fontFamily: "Nurom-Bold", color: "rgb(58, 0, 0)" }}>
+              <h1 style={{ fontFamily: "Nurom-Bold", color: "rgb(194, 94, 0)" }}>
                 INDEPENDENT PROJECTS
               </h1>
             </Card>

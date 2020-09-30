@@ -23,7 +23,7 @@ const Navbar = () => {
                   <Button
                     className="Header-Link"
                     style={{
-                      color: "rgb(255, 233, 106)",
+                      color: "rgb(255, 217, 181)",
                       transform: "translateY(-2px)",
                     }}
                   >
@@ -38,11 +38,11 @@ const Navbar = () => {
                   href={ResumePDF}
                   download
                   className="Header-Link"
-                  style={{ color: "rgb(255, 233, 106)" }}
+                  style={{ color: "rgb(255, 217, 181)" }}
                 >
                   <Button
                     className="Header-Link"
-                    style={{ color: "rgb(255, 233, 106)" }}
+                    style={{ color: "white" }}
                   >
                     Resume{" "}
                     <img
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <Link to="/contact" className="Header-Link">
                   <Button
                     className="Header-Link"
-                    style={{ color: "rgb(255, 233, 106)" }}
+                    style={{ color: "white" }}
                   >
                     Contact
                   </Button>
@@ -76,11 +76,11 @@ const Navbar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="Header-Link"
-                  style={{ color: "rgb(255, 233, 106)" }}
+                  style={{ color: "rgb(255, 217, 181)" }}
                 >
                   <Button
                     className="Header-Link"
-                    style={{ color: "rgb(255, 233, 106)" }}
+                    style={{ color: "white" }}
                   >
                     LinkedIn{" "}
                     <img

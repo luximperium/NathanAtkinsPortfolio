@@ -46,18 +46,18 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     margin: "1em",
-    color: "rgb(255, 233, 106)",
+    color: "white",
     "&:hover": {
-      backgroundColor: "rgb(255, 233, 106)",
-      color: "rgb(58, 0, 0)",
+      backgroundColor: "rgb(255, 217, 181)",
+      color: "rgb(194, 94, 0)",
     }
   },
   titletext: {
     marginBottom: "-1em",
-    color: "rgb(255, 233, 106)",
+    color: "white",
   },
   carouseltitle: {
-    color: "rgb(255, 233, 106)",
+    color: "white",
     fontFamily: "monospace"
   },
   link: {
@@ -67,7 +67,7 @@ const useStyles = makeStyles((theme) => ({
   },
   jacobtext: {
     marginBottom: "-1em",
-    color: "rgb(255, 233, 106)",
+    color: "white",
     fontFamily: "roboto",
   },
   media: {
@@ -79,24 +79,24 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "47.5%", // 16:9
   },
   card: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     textAlign: "center",
     minHeight: "15em"
   },
   cardtitle: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     textAlign: "center",
   },
   cardtitle2: {
-    color: "rgb(58, 0, 0)",
-    backgroundColor: "rgb(255, 233, 106)",
+    color: "rgb(194, 94, 0)",
+    backgroundColor: "rgb(255, 217, 181)",
     textAlign: "center",
   },
   card2: {
-    backgroundColor: "rgb(58, 0, 0)",
-    color: "rgb(255, 233, 106)",
+    backgroundColor: "rgb(194, 94, 0)",
+    color: "white",
     padding: theme.spacing(2),
     textAlign: "center",
   },
@@ -108,13 +108,13 @@ const useStyles = makeStyles((theme) => ({
   },
   button2: {
     margin: "1em",
-    color: "rgb(255, 233, 106)",
-    textShadow: "1px 1px rgb(58, 0, 0)",
+    color: "white",
+    textShadow: "1px 1px rgb(194, 94, 0)",
     textDecoration: "none",
     fontSize: "18pt",
   },
   carouseltitlemain: {
-    color: "rgb(255, 233, 106)",
+    color: "white",
     fontFamily: "monospace"
   }
 }));
