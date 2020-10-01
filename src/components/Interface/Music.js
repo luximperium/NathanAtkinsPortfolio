@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     "&:hover": {
       backgroundColor: "rgb(255, 217, 181)",
-      color: "rgb(194, 94, 0)",
+      color: "rgb(83, 57, 33)",
     }
   },
   titletext: {
@@ -79,23 +79,23 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "47.5%", // 16:9
   },
   card: {
-    backgroundColor: "rgb(194, 94, 0)",
+    backgroundColor: "rgb(83, 57, 33)",
     color: "white",
     textAlign: "center",
     minHeight: "15em"
   },
   cardtitle: {
-    backgroundColor: "rgb(194, 94, 0)",
+    backgroundColor: "rgb(83, 57, 33)",
     color: "white",
     textAlign: "center",
   },
   cardtitle2: {
-    color: "rgb(194, 94, 0)",
+    color: "rgb(83, 57, 33)",
     backgroundColor: "rgb(255, 217, 181)",
     textAlign: "center",
   },
   card2: {
-    backgroundColor: "rgb(194, 94, 0)",
+    backgroundColor: "rgb(83, 57, 33)",
     color: "white",
     padding: theme.spacing(2),
     textAlign: "center",
@@ -109,7 +109,7 @@ const useStyles = makeStyles((theme) => ({
   button2: {
     margin: "1em",
     color: "white",
-    textShadow: "1px 1px rgb(194, 94, 0)",
+    textShadow: "1px 1px rgb(83, 57, 33)",
     textDecoration: "none",
     fontSize: "18pt",
   },

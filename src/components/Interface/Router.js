@@ -5,6 +5,10 @@ import WebDev from "./WebDev";
 import Music from "./Music";
 import Home from "./Home";
 import ContactContainer from './ContactContainer'
+import Red from './WebDev/RedBadge'
+import Blue from './WebDev/BlueBadge'
+import Gold from './WebDev/GoldBadge'
+import Indie from './WebDev/IndependentProjects'
 
 const CategoryNavbar = () => {
   return (
@@ -18,6 +22,15 @@ const CategoryNavbar = () => {
         </Route>
         <Route exact path="/categories/webdev">
           <WebDev />
+        </Route>
+        <Route exact path="/categories/webdev/red">
+          <Red />
+        </Route><Route exact path="/categories/webdev/blue">
+          <Blue />
+        </Route><Route exact path="/categories/webdev/gold">
+          <Gold />
+        </Route><Route exact path="/categories/webdev/independent">
+          <Indie />
         </Route>
         <Route exact path="/categories/music">
           <Music />

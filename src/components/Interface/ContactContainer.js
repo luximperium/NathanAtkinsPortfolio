@@ -64,17 +64,17 @@ const useStyles = makeStyles((theme) => ({
       paddingTop: "47.5%", // 16:9
     },
     card: {
-      backgroundColor: "rgb(194, 94, 0)",
+      backgroundColor: "rgb(83, 57, 33)",
       color: "wheat",
       textAlign: "center",
     },
     cardtitle: {
-      backgroundColor: "rgb(194, 94, 0)",
+      backgroundColor: "rgb(83, 57, 33)",
       color: "wheat",
       textAlign: "center",
     },
     card2: {
-      backgroundColor: "rgb(194, 94, 0)",
+      backgroundColor: "rgb(83, 57, 33)",
       color: "wheat",
       padding: theme.spacing(2),
       textAlign: "center",

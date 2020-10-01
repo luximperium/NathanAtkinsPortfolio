@@ -12,7 +12,7 @@
 }
 
 body {
-  background: fixed linear-gradient(rgb(194, 94, 0),rgb(255, 217, 181));
+  background: fixed linear-gradient(rgb(83, 57, 33),rgb(255, 217, 181));
   margin: 0;
 }
 
@@ -26,22 +26,22 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(194, 94, 0);
+  background-color: rgb(83, 57, 33);
   outline: 1px solid rgb(255, 217, 181);
 }
 
 .Navbar {
-  background-color: rgb(194, 94, 0);
+  background-color: rgb(83, 57, 33);
   color: rgb(255, 217, 181);
 }
 
 .CategoryNavbar {
-  color:rgb(194, 94, 0);
-  background-color: rgb(255, 217, 181);
+  color:rgb(83, 57, 33);
+  background-color: #ffd9b5;
 }
 
 .Category-Link {
-  color:rgb(194, 94, 0);
+  color:#533921;
   text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
 
 .carousel {
   color: white;
-  text-shadow: 1px 1px rgb(194, 94, 0);
+  text-shadow: 1px 1px rgb(83, 57, 33);
   padding: 1em;
   font-size: 20pt;
 }
@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Main {
-  transform: translateY(9em);
+  transform: translateY(8em);
 }
 
 .Fortune {
@@ -98,4 +98,10 @@ body::-webkit-scrollbar-thumb {
   font-family: "Nurom-Bold"
 }
 
-/* font converted using font-converter.net. thank you! */
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
