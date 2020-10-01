@@ -16,8 +16,8 @@ const Navbar = () => {
     <div>
       <AppBar position="static" className="Navbar" color="inherit">
         <Toolbar className="Navbar" color="inherit">
-          <Grid container xs={12}>
-            <Grid item>
+          <Grid container xs={12} sm={7} md={5} lg={3}>
+            <Grid item xs={3}>
               <Typography variant="title" className="Navbar3" color="inherit">
                 <Link to="/home" className="Header-Link">
                   <Button
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </Link>
               </Typography>
             </Grid>
-            <Grid item>
+            <Grid item xs={3}>
               <Typography variant="title" className="Navbar3" color="inherit">
                 <a
                   href={ResumePDF}
@@ -57,7 +57,7 @@ const Navbar = () => {
                 </a>
               </Typography>
             </Grid>
-            <Grid item>
+            <Grid item xs={3}>
               <Typography variant="title" className="Navbar3" color="inherit">
                 <Link to="/contact" className="Header-Link">
                   <Button
@@ -69,7 +69,7 @@ const Navbar = () => {
                 </Link>
               </Typography>
             </Grid>
-            <Grid item>
+            <Grid item xs={3}>
               <Typography variant="title" className="Navbar3" color="inherit">
                 <a
                   href={"https://www.linkedin.com/in/nathan-atkins-bb8713148/"}

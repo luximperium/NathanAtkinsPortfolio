@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "25vh", // 16:9
   },
   button: {
-    fontSize: "20pt",
+    fontSize: "16pt",
     margin: "1em",
     color: "white",
     textDecoration: "none",
@@ -106,10 +106,11 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: "100%"
   },
   typical: {
+    transform: "translateY(-1em)",
     position: "fixed",
     width: "100%",
     textAlign: "center",
-    fontSize: "72pt",
+    fontSize: "60pt",
     color: "white"
   },
   background: {
