@@ -105,3 +105,25 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   z-index: 0;
 }
+
+.subtext3 {
+  text-align: center;
+  margin: 1em;
+  max-height: 10em;
+  overflow-y: scroll;
+}
+
+.subtext3::-webkit-scrollbar {
+  width: 1em;
+}
+
+.subtext3::-webkit-scrollbar-track {
+  background: rgb(255, 217, 181);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.subtext3::-webkit-scrollbar-thumb {
+  background-color: rgb(83, 57, 33);
+  outline: 1px solid rgb(255, 217, 181);
+}
+

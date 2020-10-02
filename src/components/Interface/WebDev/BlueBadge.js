@@ -52,11 +52,9 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "25vh", // 16:9
   },
   button: {
-    margin: "1em",
     color: "white",
   },
   button2: {
-    margin: "1em",
     color: "white",
     textShadow: "3px 3px black",
     textDecoration: "none",
@@ -146,6 +144,9 @@ const useStyles = makeStyles((theme) => ({
   subtext3: {
     textAlign: "center",
     margin: "1em",
+  },
+  subtext4: {
+    textAlign: "center",
   },
   BadgeButton: {
     margin: "0.5em",
@@ -267,7 +268,7 @@ const Music = () => {
                         </h3>
                         <h4 className={classes.badgeheader2}>Musique Base</h4>
                         <Typography
-                          className={classes.subtext3}
+                          className="subtext3"
                           variant="body1"
                           gutterBottom
                         >
@@ -285,6 +286,8 @@ const Music = () => {
                           members built the majority of the backend as well as
                           some of the reviewing functionalities. All around it
                           turned out pretty decent for a 2 week project.
+                          </Typography>
+                          <Typography className={classes.subtext4}>
                           <h4>LINKS</h4>
                           <Grid container xs={12}>
                             <Grid

@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "25vh", // 16:9
   },
   button: {
-    fontSize: "16pt",
+    fontSize: "11pt",
     margin: "1em",
     color: "white",
     textDecoration: "none",
@@ -120,7 +120,7 @@ const useStyles = makeStyles((theme) => ({
   },
   buttonWrapper: {
     textAlign: "center",
-    transform: "translateY(25em)"
+    transform: "translateY(20em)"
   }
 }));
 

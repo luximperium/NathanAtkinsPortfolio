@@ -52,11 +52,9 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "25vh", // 16:9
   },
   button: {
-    margin: "1em",
     color: "white",
   },
   button2: {
-    margin: "1em",
     color: "white",
     textShadow: "3px 3px black",
     textDecoration: "none",
@@ -146,6 +144,11 @@ const useStyles = makeStyles((theme) => ({
   subtext3: {
     textAlign: "center",
     margin: "1em",
+    maxHeight: "10em",
+    overflowY: "scroll"
+  },
+  subtext4: {
+    textAlign: "center",
   },
   BadgeButton: {
     margin: "0.5em",
@@ -177,6 +180,9 @@ const useStyles = makeStyles((theme) => ({
     color: "rgb(83, 57, 33)",
     margin: "1em",
   },
+  bodytext: {
+    height: "15em"
+  }
 }));
 
 const Music = () => {
@@ -290,7 +296,7 @@ const Music = () => {
                           Synth Time!
                         </h4>
                         <Typography
-                          className={classes.subtext3}
+                          className="subtext3"
                           variant="body1"
                           gutterBottom
                         >
@@ -322,7 +328,13 @@ const Music = () => {
                           showed me that I can truly do almost anything with
                           code, it just takes a lot of searching for answers and
                           problem solving.
-                          <h4 style={{ fontFamily: "Nurom-Bold" }}>LINKS</h4>
+                        </Typography>
+                        <Typography
+                          className={classes.subtext4}
+                          variant="body1"
+                          gutterBottom
+                        >
+                        <h4 style={{ fontFamily: "Nurom-Bold" }}>LINKS</h4>
                           <Grid container xs={12}>
                             <Grid
                               item
@@ -366,7 +378,7 @@ const Music = () => {
                               </a>
                             </Grid>
                           </Grid>
-                        </Typography>
+                          </Typography>
                         <Grid container xs={12}>
                           <Grid item sm={6} lg={3} xs={12}>
                             <Card className={classes.card7}>

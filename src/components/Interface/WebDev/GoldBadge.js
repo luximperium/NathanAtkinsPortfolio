@@ -52,11 +52,9 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "25vh", // 16:9
   },
   button: {
-    margin: "1em",
     color: "white",
   },
   button2: {
-    margin: "1em",
     color: "white",
     textShadow: "3px 3px black",
     textDecoration: "none",
@@ -129,6 +127,10 @@ const useStyles = makeStyles((theme) => ({
   },
   subtext: {
     minHeight: "13em",
+  },
+  subtext4: {
+    textAlign: "center",
+    minHeight: "10em",
   },
   badgeheader: {
     textAlign: "left",
@@ -292,7 +294,7 @@ const Music = () => {
                           Egg Boi
                         </h4>
                         <Typography
-                          className={classes.subtext2}
+                          className="subtext3"
                           variant="body1"
                           gutterBottom
                         >
@@ -303,6 +305,8 @@ const Music = () => {
                           was assigned on the first or second day of class. Mine
                           in particular is a silly little dog that happens to
                           look like an egg, hence his name being Egg Boi.
+                        </Typography>
+                        <Typography className={classes.subtext4}>
                           <h4 style={{ fontFamily: "Nurom-Bold" }}>LINKS</h4>
                           <Grid item xs={12} style={{ textAlign: "center" }}>
                             <a
@@ -335,17 +339,19 @@ const Music = () => {
                           Netflix Clone
                         </h4>
                         <Typography
-                          className={classes.subtext2}
+                          className="subtext3"
                           variant="body1"
                           gutterBottom
                         >
-                          This was the first assigned project to complete for
-                          Eleven Fifty Academy. We were assigned to make some
-                          sort of creature, animal or something along those
-                          lines using CSS and HTML. If I recall correctly, this
-                          was assigned on the first or second day of class. Mine
-                          in particular is a silly little dog that happens to
-                          look like an egg, hence his name being Egg Boi.
+                          The second project I did for Eleven Fifty was to
+                          create a static website. This would consist of me
+                          taking an already existing website and trying to
+                          replicate it's front page from scratch. In this
+                          instance, we used just HTML and CSS. I chose Netflix's
+                          website since it is a commonly known website and
+                          didn't seem too difficult to replicate.
+                        </Typography>
+                        <Typography className={classes.subtext4}>
                           <h4 style={{ fontFamily: "Nurom-Bold" }}>LINKS</h4>
                           <Grid item xs={12} style={{ textAlign: "center" }}>
                             <a
@@ -390,17 +396,20 @@ const Music = () => {
                           OSRS Grand Exchange Search Engine
                         </h4>
                         <Typography
-                          className={classes.subtext2}
+                          className="subtext3"
                           variant="body1"
                           gutterBottom
                         >
-                          This was the first assigned project to complete for
-                          Eleven Fifty Academy. We were assigned to make some
-                          sort of creature, animal or something along those
-                          lines using CSS and HTML. If I recall correctly, this
-                          was assigned on the first or second day of class. Mine
-                          in particular is a silly little dog that happens to
-                          look like an egg, hence his name being Egg Boi.
+                          My API project for Gold Badge was sort of my Gold
+                          Badge magnum opus. It is a search engine for a game I
+                          play called Old School Runescape. It allows you to
+                          search for items on the Grand Exchange, which is the
+                          in game public market, and see their up to date prices
+                          as well as other descriptors. You can also find the
+                          item on the game's wiki page by clicking on the item's
+                          title or picture.
+                        </Typography>
+                        <Typography className={classes.subtext4}>
                           <h4 style={{ fontFamily: "Nurom-Bold" }}>LINKS</h4>
                           <Grid item xs={12} style={{ textAlign: "center" }}>
                             <a
