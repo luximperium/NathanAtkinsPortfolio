@@ -72,7 +72,7 @@ const Navbar = () => {
             <Grid item xs={3}>
               <Typography variant="title" className="Navbar3" color="inherit">
                 <a
-                  href={"https://www.linkedin.com/in/nathan-atkins-bb8713148/"}
+                  href="https://www.linkedin.com/in/nathanielatkins/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="Header-Link"
