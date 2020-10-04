@@ -124,8 +124,7 @@ const useStyles = makeStyles((theme) => ({
     color: "rgb(83, 57, 33)",
     margin: "1em",
   },
-  title: {
-  },
+  title: {},
   subtext: {
     minHeight: "13em",
   },
@@ -216,122 +215,152 @@ const Music = () => {
         <Grid container xs={12} spacing={4} className={classes.root}>
           <Grid item xs={12} md={4}>
             <Card className={classes.card}>
-              <h1
-                style={{ fontFamily: "Nurom-Bold" }}
-                className={classes.title}
-              >
-                GOLD BADGE
-              </h1>
+              <Link to="/categories/webdev/gold" className={classes.link}>
+                <h1
+                  style={{ fontFamily: "Nurom-Bold" }}
+                  className={classes.title}
+                >
+                  GOLD BADGE
+                </h1>
+              </Link>
               <Link to="/categories/webdev/gold" className={classes.button2}>
                 <Button className={classes.BadgeButton}>VIEW</Button>
               </Link>
               <h4 style={{ fontFamily: "Nurom-Bold" }}>ACHIEVED JULY 2020</h4>
-              <CardMedia className={classes.media} image={GOLD} />
+              <Link to="/categories/webdev/gold">
+                <CardMedia className={classes.media} image={GOLD} />
+              </Link>
             </Card>
           </Grid>
           <Grid item xs={12} md={4}>
             <Card className={classes.card}>
-              <h1
-                className={classes.title}
-                style={{ fontFamily: "Nurom-Bold" }}
-              >
-                BLUE BADGE
-              </h1>
+              <Link to="/categories/webdev/blue" className={classes.link}>
+                <h1
+                  className={classes.title}
+                  style={{ fontFamily: "Nurom-Bold" }}
+                >
+                  BLUE BADGE
+                </h1>
+              </Link>
               <Link to="/categories/webdev/blue" className={classes.button2}>
                 <Button className={classes.BadgeButton}>VIEW</Button>
               </Link>
               <h4 style={{ fontFamily: "Nurom-Bold" }}>ACHIEVED AUGUST 2020</h4>
-              <CardMedia className={classes.media} image={BLUE} />
+              <Link to="/categories/webdev/blue">
+                <CardMedia className={classes.media} image={BLUE} />
+              </Link>
             </Card>
           </Grid>
           <Grid item xs={12} md={4}>
             <Card className={classes.card}>
-              <h1
-                className={classes.title}
-                style={{ fontFamily: "Nurom-Bold" }}
-              >
-                RED BADGE
-              </h1>
+              <Link to="/categories/webdev/red" className={classes.link}>
+                <h1
+                  className={classes.title}
+                  style={{ fontFamily: "Nurom-Bold" }}
+                >
+                  RED BADGE
+                </h1>
+              </Link>
               <Link to="/categories/webdev/red" className={classes.button2}>
                 <Button className={classes.BadgeButton}>VIEW</Button>
               </Link>
               <h4 style={{ fontFamily: "Nurom-Bold" }}>
                 ACHIEVED SEPTEMBER 2020
               </h4>
-              <CardMedia className={classes.media} image={RED} />
+              <Link to="/categories/webdev/red">
+                <CardMedia className={classes.media} image={RED} />
+              </Link>
             </Card>
           </Grid>
-          <Grid container justify="center" spacing={8} className={classes.root2}>
-          <Grid container justify="center" className={classes.maintitle}>
-          <Grid item xs={12}>
-            <Card className={classes.cardtitle2}>
-              <h1 style={{ fontFamily: "Nurom-Bold", color: "rgb(83, 57, 33)" }}>
-                INDEPENDENT PROJECTS
-              </h1>
-            </Card>
-          </Grid>
-        </Grid>
-        <Grid container justify="center" xs={12} className={classes.maintitle2}>
           <Grid
             container
             justify="center"
-            xs={12}
-            spacing={4}
-            className={classes.ind}
+            spacing={8}
+            className={classes.root2}
           >
-            <Grid item xs={12} md={3}>
-              <Card className={classes.indcard}>
-                <h1
-                  style={{ fontFamily: "Nurom-Bold" }}
-                  className={classes.title}
-                >
-                  Jacob C. Smith's Portfolio
-                </h1>
-                <h4 style={{ fontFamily: "Nurom-Bold" }}>
-                  Completed September 2020
-                </h4>
-                <CardContent>
-                  Based off of my own portfolio. Made as a birthday gift for my
-                  friend.
-                </CardContent>
-                <CardMedia image={Jacob} className={classes.media3} />
-              </Card>
+            <Grid container justify="center" className={classes.maintitle}>
+              <Grid item xs={12}>
+                <Card className={classes.cardtitle2}>
+                  <h1
+                    style={{
+                      fontFamily: "Nurom-Bold",
+                      color: "rgb(83, 57, 33)",
+                    }}
+                  >
+                    INDEPENDENT PROJECTS
+                  </h1>
+                </Card>
+              </Grid>
             </Grid>
-            <Grid item xs={12} md={9}>
-              <Card className={classes.indcard}>
-                <Grid container xs={12}>
-                  <Grid item xs={12} lg={6} style={{ textAlign: "center" }}>
-                    <a
-                      href="https://jacob-c-smith.herokuapp.com/home"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={classes.button2}
+            <Grid
+              container
+              justify="center"
+              xs={12}
+              className={classes.maintitle2}
+            >
+              <Grid
+                container
+                justify="center"
+                xs={12}
+                spacing={4}
+                className={classes.ind}
+              >
+                <Grid item xs={12} md={3}>
+                  <Card className={classes.indcard}>
+                    <h1
+                      style={{ fontFamily: "Nurom-Bold" }}
+                      className={classes.title}
                     >
-                      <Button className={classes.BadgeButton}>
-                        VIEW DEPLOYED
-                      </Button>
-                    </a>
-                  </Grid>
-                  <Grid item xs={12} lg={6}>
-                    <a
-                      href="https://github.com/luximperium/jacobcsmithportfolio"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={classes.button2}
-                    >
-                      <Button className={classes.BadgeButton}>
-                        VIEW CLIENT ON GITHUB
-                      </Button>
-                    </a>
-                  </Grid>
+                      Jacob C. Smith's Portfolio
+                    </h1>
+                    <h4 style={{ fontFamily: "Nurom-Bold" }}>
+                      Completed September 2020
+                    </h4>
+                    <CardContent>
+                      Based off of my own portfolio. Commissioned by Jacob
+                      Smith.
+                    </CardContent>
+                    <CardMedia image={Jacob} className={classes.media3} />
+                  </Card>
                 </Grid>
-                <CardMedia image={JacobPortfolio} className={classes.media3} />
-              </Card>
+                <Grid item xs={12} md={9}>
+                  <Card className={classes.indcard}>
+                    <Grid container xs={12}>
+                      <Grid item xs={12} lg={6} style={{ textAlign: "center" }}>
+                        <a
+                          href="https://jacob-c-smith.herokuapp.com/home"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={classes.button2}
+                        >
+                          <Button className={classes.BadgeButton}>
+                            VIEW DEPLOYED
+                          </Button>
+                        </a>
+                      </Grid>
+                      <Grid item xs={12} lg={6}>
+                        <a
+                          href="https://github.com/luximperium/jacobcsmithportfolio"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={classes.button2}
+                        >
+                          <Button className={classes.BadgeButton}>
+                            VIEW CLIENT ON GITHUB
+                          </Button>
+                        </a>
+                      </Grid>
+                    </Grid>
+                    <CardMedia
+                      image={JacobPortfolio}
+                      className={classes.media3}
+                    />
+                  </Card>
+                </Grid>
+              </Grid>
             </Grid>
           </Grid>
         </Grid>
-        </Grid>
-      </Grid>
       </Grid>
     </div>
   );
